@@ -7,7 +7,7 @@ body{
   display: block;
   padding: 0;
   margin: 0;
-  background-color: #691f1f;
+  background-color: #2A2A2A;
   width: 100%;
   overflow-x: hidden;
 }
@@ -372,6 +372,7 @@ hr{
   }
   .about h5 {
     width: 100%;
+    padding-bottom: 30px;
   }
   .about-pic img {
     width: 90%;
@@ -379,6 +380,12 @@ hr{
   }
   .box-container, .box-info-container, .box-review-container, .showcase-container, .contact-container {
     flex-wrap: wrap;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box-review{
+    width: 400px;
   }
   .box-product img {
     width: 300px;
@@ -386,6 +393,9 @@ hr{
   .box-infoProduct {
     width: 100%;
     margin-bottom: 40px;
+  }
+  .contact-box{
+    width: 500px;
   }
 }
 
@@ -476,16 +486,25 @@ hr{
   .box-infoProduct h3 {
     width: 90%;
     font-size: 16px;
+    text-align: center;
   }
-
   .showcase-container {
     flex-direction: column;
   }
-
+  .text-infoProduct{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .showcase-container img {
-    width: 90%;
+    width: 80%;
   }
   .descrip h5{
     font-size: 15px;
+  }
+  .contact-box{
+    width: 250px;
   }
 }
