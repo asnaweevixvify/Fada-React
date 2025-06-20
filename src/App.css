@@ -248,6 +248,9 @@ hr{
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 20px;
 }
+.box-review img{
+  width: 200px;
+}
 .box-review h2{
   font-family: "kanit";
   font-size: 35px;
@@ -368,7 +371,7 @@ hr{
   .bottle img {
     width: 400px;
     top: 170px;
-    right: -70px;
+    right: -90px;
   }
   .about {
     flex-direction: column;

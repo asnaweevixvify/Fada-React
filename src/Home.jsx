@@ -14,6 +14,10 @@ import call from './pic/call.png'
 import line from './pic/line.png'
 import shop from './pic/shopee.png'
 import laz from './pic/laz.png'
+import lek from './pic/lek.png'
+import pawa from './pic/pawa.png'
+import yai from './pic/yai.png'
+import bang from './pic/bang.png'
 
 import show1 from './pic/11.png'
 import show2 from './pic/12.png'
@@ -128,6 +132,36 @@ function Home() {
                                 รสชาติแซ่บจัดจ้านถึงใจ เข้มข้น หอมกลิ่นปลาร้าแท้ๆ ปรุงรสมาอย่างดี กลมกล่อม ไม่คาว ไม่ต้องปรุงเพิ่ม
                             </h3>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr></hr>
+
+        <section id='Review'>
+            <div className="review-container" data-aos="fade-up">
+            <h1>รีวิวจาก Influencer</h1> 
+                <div className="box-review-container">
+                    <div className="box-review">
+                        <img src={lek}></img>
+                        <h2>เล็ก บูรพา วรุต ปริงทอง </h2>
+                        <h4>Click เพื่อรับชมคลิป</h4>
+                    </div>
+                    <div className="box-review">
+                        <img src={pawa}></img>
+                        <h2>ปะหวาจัดให้</h2>
+                        <h4>Click เพื่อรับชมคลิป</h4>
+                    </div>
+                    <div className="box-review">
+                        <img src={yai}></img>
+                        <h2>ว่าเฮยายหนวด</h2>
+                        <h4>Click เพื่อรับชมคลิป</h4>
+                    </div>
+                    <div className="box-review">
+                        <img src={bang}></img>
+                        <h2>nuker_taiyang นิกับบัง</h2>
+                        <h4>Click เพื่อรับชมคลิป</h4>
                     </div>
                 </div>
             </div>
