@@ -203,11 +203,6 @@ function Home() {
                         <h2>บังแฝด สายล่องท่องกิน </h2>
                         <h4>Click เพื่อรับชมคลิป</h4>
                     </div>
-                    <div className="box-review">
-                        <img src={bang}></img>
-                        <h2>nuker_taiyang นิกับบัง</h2>
-                        <h4>Click เพื่อรับชมคลิป</h4>
-                    </div>
                 </div>
             </div>
         </section>
