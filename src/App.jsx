@@ -8,8 +8,10 @@ function App() {
 
   return (
     <div className='body'>
-      <Navbar/>
-      <Home/>
+      <div className="onBody">
+        <Navbar/>
+        <Home/>
+      </div>
       <Footer/>
     </div>
   )

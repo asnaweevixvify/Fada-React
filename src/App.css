@@ -11,6 +11,13 @@ body{
   width: 100%;
   overflow-x: hidden;
 }
+.fa-bars{
+  display: none;
+}
+.body{
+  display: flex;
+  flex-direction: column;
+}
 html{
   scroll-behavior: smooth;
 }
@@ -33,19 +40,25 @@ h1,h2{
   width: 60px;
   height: 60px;
 }
-.nav-container ul{
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.nav-bar ul{
   display: flex;
   list-style: none;
   gap: 60px;
 }
-.nav-container ul li{
+.nav-bar ul li{
   font-family: 'Kanit';
   font-size: 25px;
   cursor: pointer;
   color: white;
   transition: transform 0.2s ease-in-out;
 }
-.nav-container ul li:hover{
+.nav-bar ul li:hover{
   transform: scale(1.1);
 }
 .home{
@@ -428,21 +441,47 @@ hr{
 }
 
 @media (max-width: 768px) {
-  .nav-container {
-    flex-direction: column;
-    height: auto;
-    gap: 20px;
-    text-align: center;
-  }
-  .hide{
-    display: none;
-  }
-  .show{
+  .onBody{
     display: flex;
   }
-  .nav-container ul {
+  .nav-container{
+    position: absolute;
+  }
+  .nav-bar ul{
+    display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
+  }
+  .nav-bar{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 100vh;
+    gap: 40px;
+    text-align: center;
+    justify-content: flex-start;
+    background-color: #3e1f00;
+    padding-top: 100px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: transform 0.2s ease-in-out;
+  }
+  .nav-bar ul li{
+    font-size: 20px;
+  }
+  .fa-bars{
+    display: block;
+    z-index: 999;
+    position: absolute;
+    cursor: pointer;
+  }
+  .nav-bar img{
+    z-index: 3;
+  }
+  .hide{
+    transform: translateX(-100%);
   }
   .title {
     position: static; 

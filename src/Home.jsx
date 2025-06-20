@@ -40,6 +40,7 @@ import show4 from './pic/14.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import './App.css'
 
 
 function Home() {
@@ -280,7 +281,6 @@ function Home() {
             </div>
         </section>
 
-        <hr></hr>
     </div>
   )
 }
