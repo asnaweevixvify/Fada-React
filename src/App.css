@@ -234,6 +234,22 @@ hr{
   margin-top: 50px;
   justify-content: center;
   align-items: center;
+  color: white;
+}
+.box-review-container a{
+  color: white;
+}
+.influ{
+  width: 90%;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-text{
+  font-size: 70px;
+  font-family: 'Kanit';
+  text-align: center;
+  margin-top: 70px;
 }
 .box-review{
   display: flex;
@@ -260,12 +276,16 @@ hr{
   font-weight: 400;
 }
 .showcase-container{
+  width: 80%;
   margin-top: 70px;
   padding-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
 }
 .showcase-container img{
   width: 300px;
@@ -424,14 +444,15 @@ hr{
     flex-direction: column;
     gap: 20px;
   }
-
   .title {
     position: static; 
     text-align: center;
     margin-top: -350px;
     z-index: 2;
   }
-
+  .bgPic img{
+    z-index: -999;
+  }
   .bottle img {
     position: relative;
     width: 250px;
@@ -443,6 +464,9 @@ hr{
     z-index: 1;
   }
   .about h1{
+    font-size: 45px;
+  }
+  .menu-text{
     font-size: 45px;
   }
   .about h5{

@@ -18,6 +18,18 @@ import lek from './pic/lek.png'
 import pawa from './pic/pawa.png'
 import yai from './pic/yai.png'
 import bang from './pic/bang.png'
+import kasi from './pic/kasi.png'
+import bangf from './pic/bangf.png'
+import menu1 from './pic/24.png'
+import menu2 from './pic/25.png'
+import menu3 from './pic/26.png'
+import menu4 from './pic/27.png'
+import menu5 from './pic/28.png'
+import menu6 from './pic/29.png'
+import menu7 from './pic/30.png'
+import menu8 from './pic/31.png'
+
+
 
 import show1 from './pic/11.png'
 import show2 from './pic/12.png'
@@ -139,15 +151,33 @@ function Home() {
 
         <hr></hr>
 
+        <section id="Menu" data-aos="fade-up">
+            <h1 className='menu-text'>ทำเมนูอะไรได้บ้าง</h1>
+            <div className="showcase-container" data-aos="fade-up">
+                <img src={menu1}></img>
+                <img src={menu2}></img>
+                <img src={menu3}></img>
+                <img src={menu4}></img>
+                <img src={menu5}></img>
+                <img src={menu6}></img>
+                <img src={menu7}></img>
+                <img src={menu8}></img>
+            </div>
+        </section>
+
+        <hr></hr>
+
         <section id='Review'>
             <div className="review-container" data-aos="fade-up">
-            <h1>รีวิวจาก Influencer</h1> 
-                <div className="box-review-container">
-                    <div className="box-review">
-                        <img src={lek}></img>
-                        <h2>เล็ก บูรพา วรุต ปริงทอง </h2>
-                        <h4>Click เพื่อรับชมคลิป</h4>
-                    </div>
+            <h1>รีวิวจาก Influencer ชื่อดัง</h1> 
+                <div className="box-review-container influ">
+                    <a href='https://www.facebook.com/reel/460020850516494' target='blank'>
+                        <div className="box-review">
+                            <img src={lek}></img>
+                            <h2>เล็ก บูรพา วรุต ปริงทอง </h2>
+                            <h4>Click เพื่อรับชมคลิป</h4>
+                        </div>
+                    </a>
                     <div className="box-review">
                         <img src={pawa}></img>
                         <h2>ปะหวาจัดให้</h2>
@@ -156,6 +186,21 @@ function Home() {
                     <div className="box-review">
                         <img src={yai}></img>
                         <h2>ว่าเฮยายหนวด</h2>
+                        <h4>Click เพื่อรับชมคลิป</h4>
+                    </div>
+                    <div className="box-review">
+                        <img src={bang}></img>
+                        <h2>nuker_taiyang นิกับบัง</h2>
+                        <h4>Click เพื่อรับชมคลิป</h4>
+                    </div>
+                    <div className="box-review">
+                        <img src={kasi}></img>
+                        <h2>ครัว กะซีตี</h2>
+                        <h4>Click เพื่อรับชมคลิป</h4>
+                    </div>
+                    <div className="box-review">
+                        <img src={bangf}></img>
+                        <h2>บังแฝด สายล่องท่องกิน </h2>
                         <h4>Click เพื่อรับชมคลิป</h4>
                     </div>
                     <div className="box-review">
