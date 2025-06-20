@@ -55,7 +55,7 @@ h1,h2{
   width: 100%;
   object-fit:cover;
   height: 600px;
-  opacity: 0.3;
+  filter: brightness(30%);
 }
 .title{
   position: absolute;
@@ -408,7 +408,7 @@ hr{
   }
   .box-container, .box-info-container, .box-review-container, .showcase-container, .contact-container {
     flex-wrap: wrap;
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -448,10 +448,10 @@ hr{
     position: static; 
     text-align: center;
     margin-top: -350px;
-    z-index: 2;
+    z-index: 999;
   }
-  .bgPic img{
-    z-index: -999;
+  .title h1{
+    position:sticky;
   }
   .bottle img {
     position: relative;
@@ -500,7 +500,7 @@ hr{
   }
 
   .box-review {
-    width: 100%;
+    width: 270px;
   }
   .contact-container{
     width: 100%;
