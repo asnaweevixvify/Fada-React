@@ -489,7 +489,7 @@ hr{
     margin-top: -350px;
     z-index: 999;
   }
-  .title h1{
+  .title h1,h3{
     position:sticky;
   }
   .bottle img {
