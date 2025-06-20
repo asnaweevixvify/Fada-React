@@ -9,6 +9,18 @@ import six from './pic/6.png'
 import halal from './pic/halalBg.png'
 import safe from './pic/safe.png'
 import food from './pic/food.png'
+import face from './pic/face.png'
+import call from './pic/call.png'
+import line from './pic/line.png'
+import shop from './pic/shopee.png'
+import laz from './pic/laz.png'
+
+import show1 from './pic/11.png'
+import show2 from './pic/12.png'
+import show3 from './pic/13.png'
+import show4 from './pic/14.png'
+
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -25,7 +37,7 @@ function Home() {
 
   return (
     <div className="container">
-        <section className='home'>
+        <section className='home' id='Home'>
             <div className="bgPic" data-aos="fade-up">
                 <img src={homePic}></img>
             </div>
@@ -38,8 +50,8 @@ function Home() {
             </div>
         </section>
 
-        <section>
-            <div className="about" id='About' data-aos="fade-up">
+        <section id='About'>
+            <div className="about" data-aos="fade-up">
                 <div className="descrip">
                     <h1>เกี่ยวกับเรา</h1>    
                     <h5>
@@ -56,8 +68,8 @@ function Home() {
 
         <hr></hr>
 
-        <section>
-            <div className="product" id='Product' data-aos="fade-up">
+        <section id='Product'>
+            <div className="product" data-aos="fade-up">
                 <h1>สินค้าของเรา</h1> 
                 <div className="box-container">
                     <div className="box-product">
@@ -95,7 +107,7 @@ function Home() {
                         <div className="text-infoProduct">
                             <h1>ฮาลาล</h1>
                             <h3>
-                                ฮาลาล 100 % เพราะผ่านการควบคุม<br></br>ดูแลการผลิตโดยทีมงานมุสลิม
+                                ได้รับการรับรองมาตรฐานฮาลาลจากสำนักงานคณะกรรมการกลางอิสลามแห่งประเทศไทย
                             </h3>
                         </div>
                     </div>
@@ -123,7 +135,7 @@ function Home() {
 
         <hr></hr>
 
-        <section>
+        <section id='Review'>
             <div className="review-container" data-aos="fade-up">
             <h1>รีวิวจากลูกค้า</h1> 
                 <div className="box-review-container">
@@ -149,7 +161,52 @@ function Home() {
 
         <hr></hr>
 
-        <section></section>
+        <section>
+            <div className="showcase-container" data-aos="fade-up">
+                <img src={show1}></img>
+                <img src={show2}></img>
+                <img src={show3}></img>
+                <img src={show4}></img>
+            </div>
+        </section>
+
+        <hr></hr>
+
+        <section id='Contact'>
+            <div className="contact" data-aos="fade-up">
+                <h1>สั่งซื้อสินค้าของเรา</h1>
+                <div className="contact-container">
+                    <a href='https://www.facebook.com/profile.php?id=61571321459986' target='blank'>
+                        <div className="contact-box">
+                            <img src={face}></img>
+                            <h2>ฟาด้าน้ำปลาร้าฮาลาล</h2>
+                        </div>
+                    </a>
+                    <div className="contact-box">
+                        <img src={call}></img>
+                        <h2>084-199-3291</h2>
+                    </div>
+                    <div className="contact-box">
+                        <img src={line}></img>
+                        <h2>@fadafoods</h2>
+                    </div>
+                    <a href='https://shopee.co.th/abang_marget?uls_trackid=530jtfl80048' target='blank'>
+                        <div className="contact-box">
+                            <img src={shop}></img>
+                            <h2>abang market</h2>
+                        </div>
+                    </a>
+                    <a href='https://www.lazada.co.th/shop/flkxtchh?spm=a211g0.store_hp.more_popup.share_this_store&dsource=share&laz_share_info=1957262930_0_200_100068273204_1957264930_null&laz_token=0f9c45d83fe50437de89b880cdc1e8f7&exlaz=e_78%2FCXAnZy6HGip8qo24MCSTeQCjDld4siVQ4kY1ODqrCXvTKdNAtBfrYHUpbt8xr6nejNh6YiYbO7MSdVRSDSLcazjqFN96eD3WnASIas1Y%3D&sub_aff_id=social_share&sub_id2=1957262930&sub_id3=100068273204&sub_id6=CPI_EXLAZ' target='blank'>
+                        <div className="contact-box">
+                            <img src={laz}></img>
+                            <h2>abang market</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <hr></hr>
     </div>
   )
 }

@@ -11,6 +11,12 @@ body{
   width: 100%;
   overflow-x: hidden;
 }
+html{
+  scroll-behavior: smooth;
+}
+h1,h2{
+  color: white;
+}
 .nav-container a{
   color: white;
 }
@@ -250,6 +256,84 @@ hr{
   font-family: "kanit";
   font-weight: 400;
 }
+.showcase-container{
+  margin-top: 70px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.showcase-container img{
+  width: 300px;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+.showcase-container img:hover{
+  transform: scale(1.2);
+}
+.contact{
+  margin-top: 80px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.contact h1{
+  font-family: 'Kanit';
+  font-size: 70px;
+  text-align: center;
+}
+.contact-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.contact-container a{
+  color: white;
+}
+.contact-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(10px);           
+  -webkit-backdrop-filter: blur(10px);   
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+.contact-box:hover{
+  transform: scale(1.1);
+}
+.contact-box img{
+  width: 70px;
+  height: 70px;
+}
+.contact-box h2{
+  font-family: 'Kanit';
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+}
+.footer-container{
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-container h4{
+  color: black;
+  font-family: 'Kanit';
+  font-weight: 400;
+  text-align: center;
+}
 @keyframes bottlehome{
   0%{
     transform: translateY(0%);
@@ -259,5 +343,149 @@ hr{
   }
   100%{
     transform: translateY(0%);
+  }
+}
+@media (max-width: 1024px) {
+  .home{
+    width: 100%;
+  }
+  .title h1 {
+    font-size: 80px;
+    left: 30px;
+  }
+  .title{
+    position: absolute;
+    left: 40px;
+  }
+  .title h3 {
+    font-size: 24px;
+  }
+  .bottle img {
+    width: 400px;
+    top: 170px;
+    right: -70px;
+  }
+  .about {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about h5 {
+    width: 100%;
+  }
+  .about-pic img {
+    width: 90%;
+    height: auto;
+  }
+  .box-container, .box-info-container, .box-review-container, .showcase-container, .contact-container {
+    flex-wrap: wrap;
+  }
+  .box-product img {
+    width: 300px;
+  }
+  .box-infoProduct {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    text-align: center;
+  }
+  .hide{
+    display: none;
+  }
+  .show{
+    display: flex;
+  }
+  .nav-container ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .title {
+    position: static; 
+    text-align: center;
+    margin-top: -350px;
+    z-index: 2;
+  }
+
+  .bottle img {
+    position: relative;
+    width: 250px;
+    top: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 1;
+  }
+  .about h1{
+    font-size: 45px;
+  }
+  .about h5{
+    padding-bottom: 30px;
+  }
+  .bgPic img {
+    height: 500px;
+  }
+
+  .title h1 {
+    font-size: 36px;
+  }
+
+  .title h3 {
+    font-size: 18px;
+  }
+
+  .box-product img {
+    width: 250px;
+  }
+
+  .box-product{
+    width: 90%;
+  }
+
+  .product h1, .productInfo h2, .review-container h1, .contact h1 {
+    font-size: 45px;
+  }
+
+  .box-review {
+    width: 90%;
+  }
+
+  .contact-box {
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .contact-box h2 {
+    font-size: 20px;
+  }
+
+  .contact-box img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .box-infoProduct h3 {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .showcase-container {
+    flex-direction: column;
+  }
+
+  .showcase-container img {
+    width: 90%;
+  }
+  .descrip h5{
+    font-size: 15px;
   }
 }

@@ -3,14 +3,14 @@ import fadaLogo from './pic/fadaLogo.png'
 
 function Navbar() {
   return (
-    <div className='nav-container'>
+    <div className='nav-container hide'>
         <img src={fadaLogo}></img>
         <ul>
-            <li>Home</li>
+            <a href='#Home'><li>Home</li></a>
             <a href='#About'><li>About</li></a>
             <a href='#Product'><li>Product</li></a>
-            <li>Review</li>
-            <li>Contact</li>
+            <a href='#Review'><li>Review</li></a>
+            <a href='#Contact'><li>Contact</li></a>
         </ul>
     </div>
   )
