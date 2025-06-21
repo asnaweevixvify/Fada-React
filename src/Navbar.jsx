@@ -10,7 +10,7 @@ function Navbar() {
     <div className='nav-container'>
         <i className="fa-solid fa-bars fa-2x" onClick={setShowStatus}></i>
         <div className={`nav-bar ${show ? '' : 'hide'}`}>
-            <img src={fadaLogo}></img>
+            <a href='#Home'><img src={fadaLogo}></img></a>
             <ul>
                 <a href='#Home'><li onClick={setClose}>Home</li></a>
                 <a href='#About'><li onClick={setClose}>About</li></a>

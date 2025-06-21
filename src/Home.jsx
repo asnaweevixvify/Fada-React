@@ -20,14 +20,16 @@ import yai from './pic/yai.png'
 import bang from './pic/bang.png'
 import kasi from './pic/kasi.png'
 import bangf from './pic/bangf.png'
-import menu1 from './pic/24.png'
-import menu2 from './pic/25.png'
 import menu3 from './pic/26.png'
 import menu4 from './pic/27.png'
 import menu5 from './pic/28.png'
 import menu6 from './pic/29.png'
 import menu7 from './pic/30.png'
 import menu8 from './pic/31.png'
+import r1 from './pic/32.png'
+import r2 from './pic/33.png'
+import r3 from './pic/34.png'
+import r4 from './pic/35.png'
 
 
 
@@ -155,8 +157,6 @@ function Home() {
         <section id="Menu" data-aos="fade-up">
             <h1 className='menu-text'>ทำเมนูอะไรได้บ้าง</h1>
             <div className="showcase-container" data-aos="fade-up">
-                <img src={menu1}></img>
-                <img src={menu2}></img>
                 <img src={menu3}></img>
                 <img src={menu4}></img>
                 <img src={menu5}></img>
@@ -179,31 +179,41 @@ function Home() {
                             <h4>Click เพื่อรับชมคลิป</h4>
                         </div>
                     </a>
-                    <div className="box-review">
-                        <img src={pawa}></img>
-                        <h2>ปะหวาจัดให้</h2>
-                        <h4>Click เพื่อรับชมคลิป</h4>
-                    </div>
-                    <div className="box-review">
-                        <img src={yai}></img>
-                        <h2>ว่าเฮยายหนวด</h2>
-                        <h4>Click เพื่อรับชมคลิป</h4>
-                    </div>
-                    <div className="box-review">
-                        <img src={bang}></img>
-                        <h2>nuker_taiyang นิกับบัง</h2>
-                        <h4>Click เพื่อรับชมคลิป</h4>
-                    </div>
-                    <div className="box-review">
-                        <img src={kasi}></img>
-                        <h2>ครัว กะซีตี</h2>
-                        <h4>Click เพื่อรับชมคลิป</h4>
-                    </div>
-                    <div className="box-review">
-                        <img src={bangf}></img>
-                        <h2>บังแฝด สายล่องท่องกิน </h2>
-                        <h4>Click เพื่อรับชมคลิป</h4>
-                    </div>
+                    <a href='https://www.facebook.com/watch/?mibextid=wwXIfr&v=688746660537298&rdid=wz2f17CYznRLOJT5' target='blank'>
+                        <div className="box-review">
+                            <img src={pawa}></img>
+                            <h2>ปะหวาจัดให้</h2>
+                            <h4>Click เพื่อรับชมคลิป</h4>
+                        </div>
+                    </a>
+                    <a href='https://www.facebook.com/watch/?v=3019846131518374&rdid=d319NnpPKlk9c1me' target='blank'>
+                        <div className="box-review">
+                            <img src={yai}></img>
+                            <h2>ว่าเฮยายหนวด</h2>
+                            <h4>Click เพื่อรับชมคลิป</h4>
+                        </div>
+                    </a>
+                    <a href='https://www.tiktok.com/@nuker_taiyang/video/7511274863307410696?_r=1&_t=ZS-8wtst6t64e8' target='blank'>
+                        <div className="box-review">
+                            <img src={bang}></img>
+                            <h2>nuker_taiyang นิกับบัง</h2>
+                            <h4>Click เพื่อรับชมคลิป</h4>
+                        </div>
+                    </a>
+                   <a href='https://www.facebook.com/watch/?mibextid=rS40aB7S9Ucbxw6v&v=2143678446133307' target='blank'>
+                        <div className="box-review">
+                            <img src={kasi}></img>
+                            <h2>ครัว กะซีตี</h2>
+                            <h4>Click เพื่อรับชมคลิป</h4>
+                        </div>
+                   </a>
+                    <a href='https://www.tiktok.com/@bangfead_ontour/video/7498921984865193234?_r=1&_t=ZS-8vxAoam7yUB' target='blank'>
+                        <div className="box-review">
+                            <img src={bangf}></img>
+                            <h2>บังแฝด สายล่องท่องกิน </h2>
+                            <h4>Click เพื่อรับชมคลิป</h4>
+                        </div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -214,21 +224,17 @@ function Home() {
             <div className="review-container" data-aos="fade-up">
             <h1>รีวิวจากลูกค้า</h1> 
                 <div className="box-review-container">
-                    <div className="box-review">
-                        <h2>แซ่บนัวส์ถึงรส😘</h2>
-                        <h4>คุณประภานันท์ สุภานนท์</h4>
+                    <div className="box-review-p">
+                        <img src={r1}></img>
                     </div>
-                    <div className="box-review">
-                        <h2>อร่อยมากค่ะ ตำ ยำ ลงตัว</h2>
-                        <h4>Khunnui Sirikallaya</h4>
+                    <div className="box-review-p">
+                        <img src={r2}></img>
                     </div>
-                    <div className="box-review">
-                        <h2>อร่อยจริงค่ะ</h2>
-                        <h4>คุณวนิสสา สืบวงศ์</h4>
+                    <div className="box-review-p">
+                        <img src={r3}></img>
                     </div>
-                    <div className="box-review">
-                        <h2>ได้ลองชิมน้ำปลาร้าแล้ว อร่อยมากค่ะ</h2>
-                        <h4>คุณวิลาสินี กาญจนวิจิตร</h4>
+                    <div className="box-review-p">
+                        <img src={r4}></img>
                     </div>
                 </div>
             </div>

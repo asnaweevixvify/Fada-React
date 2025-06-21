@@ -31,10 +31,13 @@ h1,h2{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 60%;
-  height: 120px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100vw;
+  height: 100px;
+  position: fixed;
+  z-index: 999;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #3e1f00;
 }
 .nav-container img{
   width: 60px;
@@ -69,6 +72,7 @@ h1,h2{
   object-fit:cover;
   height: 600px;
   filter: brightness(30%);
+  margin-top: 100px;
 }
 .title{
   position: absolute;
@@ -229,7 +233,7 @@ hr{
 }
 .review-container{
   margin-top: 70px;
-  width: 90%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 30px;
@@ -276,6 +280,12 @@ hr{
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 20px;
+  width: 400px;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+.box-review:hover{
+  transform: scale(1.1);
 }
 .box-review img{
   width: 200px;
@@ -285,6 +295,37 @@ hr{
   font-size: 35px;
 }
 .box-review h4{
+  font-family: "kanit";
+  font-weight: 400;
+}
+.box-review-p{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(10px);           
+  -webkit-backdrop-filter: blur(10px);   
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  width: 400px;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+  height: 200px;
+}
+.box-review-p:hover{
+  transform: scale(1.1);
+}
+.box-review-p img{
+  width: 300px;
+}
+.box-review-p h2{
+  font-family: "kanit";
+  font-size: 35px;
+}
+.box-review-p h4{
   font-family: "kanit";
   font-weight: 400;
 }
@@ -401,6 +442,9 @@ hr{
   .title h3 {
     font-size: 24px;
   }
+  .bgPic img{
+    margin-top: 0px;
+  }
   .bottle img {
     width: 400px;
     top: 170px;
@@ -428,6 +472,9 @@ hr{
   .box-review{
     width: 400px;
   }
+  .box-review-p{
+    width: 400px;
+  }
   .box-product img {
     width: 300px;
   }
@@ -446,6 +493,7 @@ hr{
   }
   .nav-container{
     position: absolute;
+    background-color: transparent;
   }
   .nav-bar ul{
     display: flex;
@@ -453,7 +501,7 @@ hr{
     gap: 30px;
   }
   .nav-bar{
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     width: 150px;
@@ -474,7 +522,7 @@ hr{
   .fa-bars{
     display: block;
     z-index: 999;
-    position: absolute;
+    position:fixed;
     cursor: pointer;
   }
   .nav-bar img{
@@ -503,10 +551,10 @@ hr{
     z-index: 1;
   }
   .about h1{
-    font-size: 45px;
+    font-size: 40px;
   }
   .menu-text{
-    font-size: 45px;
+    font-size: 40px;
   }
   .about h5{
     padding-bottom: 30px;
@@ -535,14 +583,28 @@ hr{
   }
 
   .product h1, .productInfo h2, .review-container h1, .contact h1 {
-    font-size: 45px;
+    font-size: 40px;
   }
 
   .box-review {
-    width: 270px;
+    width: 280px;
+  }
+  .box-review h2{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .box-review-p {
+    width: 280px;
+  }
+  .box-review-p h2{
+    font-size: 30px;
+    font-weight: 600;
   }
   .contact-container{
     width: 100%;
+  }
+  .box-review-p img{
+    width: 250px;
   }
   .contact-box {
     flex-direction: column;
