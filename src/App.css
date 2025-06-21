@@ -268,6 +268,12 @@ hr{
   text-align: center;
   margin-top: 70px;
 }
+.menu-des{
+  font-family: 'Kanit';
+  font-weight: 400;
+  text-align: center;
+  margin-top: 25px;
+}
 .box-review{
   display: flex;
   flex-direction: column;
@@ -647,6 +653,11 @@ hr{
   }
   .footer-container h4{
     width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .menu-des{
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }

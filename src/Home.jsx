@@ -26,6 +26,8 @@ import menu5 from './pic/28.png'
 import menu6 from './pic/29.png'
 import menu7 from './pic/30.png'
 import menu8 from './pic/31.png'
+import menu9 from './pic/37.png'
+import menu10 from './pic/38.png'
 import r1 from './pic/32.png'
 import r2 from './pic/33.png'
 import r3 from './pic/34.png'
@@ -156,6 +158,7 @@ function Home() {
 
         <section id="Menu" data-aos="fade-up">
             <h1 className='menu-text'>ทำเมนูอะไรได้บ้าง</h1>
+            <h4 className='menu-des'>สามารถทำเมนูได้หลากหลาย เช่น เช่น ส้มตำ ลาบ น้ำตก ยำ แกง น้ำพริก หลน และอีกมากมาย</h4>
             <div className="showcase-container" data-aos="fade-up">
                 <img src={menu3}></img>
                 <img src={menu4}></img>
@@ -163,6 +166,8 @@ function Home() {
                 <img src={menu6}></img>
                 <img src={menu7}></img>
                 <img src={menu8}></img>
+                <img src={menu9}></img>
+                <img src={menu10}></img>
             </div>
         </section>
 
