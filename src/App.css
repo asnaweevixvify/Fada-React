@@ -121,6 +121,7 @@ h1,h2{
   font-weight: 400;
   font-size: 25px;
   width: 87%;
+  color: white;
 }
 .about-pic img{
   width: 600px;
@@ -230,6 +231,7 @@ hr{
 .text-infoProduct{
   flex: 1;
   margin-top: 30px;
+  color: white;
 }
 .review-container{
   margin-top: 70px;
@@ -273,6 +275,8 @@ hr{
   font-weight: 400;
   text-align: center;
   margin-top: 25px;
+  color: white;
+  font-size: 30px;
 }
 .box-review{
   display: flex;
@@ -660,5 +664,6 @@ hr{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 20px;
   }
 }
