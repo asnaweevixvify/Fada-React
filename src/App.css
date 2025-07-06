@@ -89,6 +89,7 @@ h1,h2{
 .title h3{
   font-weight: 400;
   font-size: 30px;
+  color: white;
 }
 .bottle{
   width: 100%;
@@ -541,6 +542,7 @@ hr{
     z-index: 999;
     position:fixed;
     cursor: pointer;
+    color: white;
   }
   .nav-bar img{
     z-index: 3;
