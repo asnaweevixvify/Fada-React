@@ -14,6 +14,7 @@ import call from './pic/call.png'
 import line from './pic/line.png'
 import shop from './pic/shopee.png'
 import laz from './pic/laz.png'
+import tt from './pic/tt.png'
 import lek from './pic/lek.png'
 import pawa from './pic/pawa.png'
 import yai from './pic/yai.png'
@@ -32,7 +33,7 @@ import r1 from './pic/32.png'
 import r2 from './pic/33.png'
 import r3 from './pic/34.png'
 import r4 from './pic/35.png'
-
+import np from './pic/np.png'
 
 
 import show1 from './pic/11.png'
@@ -111,6 +112,11 @@ function Home() {
                     <div className="box-product">
                         <img src={six}></img>
                         <h4>6 ขวด 180 บาท ค่าส่ง 50 บาท</h4>
+                        <h6>( ปลายทางบวกเพิ่ม 10 บาท )</h6>
+                    </div>
+                    <div className="box-product">
+                        <img src={np}></img>
+                        <h4>1 ขวด 45 บาท ค่าส่ง 29 บาท</h4>
                         <h6>( ปลายทางบวกเพิ่ม 10 บาท )</h6>
                     </div>
                 </div>
@@ -276,6 +282,12 @@ function Home() {
                         <img src={line}></img>
                         <h2>@fadafoods</h2>
                     </div>
+                    <a href='https://www.tiktok.com/view/product/1731244958149477617?_svg=1&checksum=631db6d293c60ffb3ca93d16184876132aa98f77092f36efb11b2eb8bd1e2e21&encode_params=MIIBLwQM85OFqy50IiW7C8AdBIIBC8xGddPRzUJGgsgR35qu1MuwDnVqUsSnrgsgF4uXJKsmOJ1K51jJWnFSWGIjIhjvQ%2BHp7hqrfS6ofAjFGYrLEFMGDwbGwjBGwY%2BaVRbB8PguPF%2B%2Fq8IQV7pN0J22zlCvojdq9iIjTZDmBaXfL1iWLj1IFoXJrv1DCAHCXyigTOWF%2ByuIIqw8VbSvjjeJ9aYan3hVucI5h4K%2Birivkw4gTrd4GqIxxjKi1W6i6M9SmJhuTUxb1T%2FcoAMLW3yLHj2u1rN%2BW2MUrpESU9SvgHwcbqrFUJwhSLnJAC4YZod%2FVefSGELi2Nel9OI8nkTZ%2BDaxbVf7rTlAoxjKZ%2BD7jr5qXwnGGl17wwKO%2FElIugQQgRTg9qVYJmdJomnjIBWeUA%3D%3D&og_info=%7B%22title%22%3A%22%E0%B8%9F%E0%B8%B2%E0%B8%94%E0%B9%89%E0%B8%B2+%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%AE%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%A5+Fada+Fermented+fish++sauce%22%2C%22image%22%3A%22https%3A%5C%2F%5C%2Fp16-oec-sg.ibyteimg.com%5C%2Ftos-alisg-i-aphluv4xwc-sg%5C%2F8d93a25f9f5040718778e246630cdb2a~tplv-aphluv4xwc-resize-webp%3A260%3A260.webp%3Fdr%3D15582%26t%3D555f072d%26ps%3D933b5bde%26shp%3D7745054a%26shcp%3D9b759fb9%26idc%3Dmy%26from%3D2001012042%22%7D&sec_user_id=MS4wLjABAAAADawNwxBlxjse2edq4ZEH0PozhRhLOsvChcwYOVoDSGy9zd8ta5iDqXQtl4sXZtGz&share_app_id=1180&share_iid=7521913715392071431&share_link_id=e2d0ef59-d77d-43cd-bffc-612250bfb527&social_share_type=15&timestamp=1751773477&trackParams=%7B%22traffic_source_list%22%3A%5B6%5D%2C%22traffic_source%22%3A6%2C%22enable_shop_tab_popup%22%3A1%2C%22device_id%22%3A%227500878662221317639%22%7D&u_code=d2dcgmjm8c28k6&ug_btm=b3190%2Cb6661&ugbiz_name=UNKNOWN&unique_id=naseerohezor&user_id=6609216208313171969' target='blank'>
+                        <div className="contact-box">
+                            <img src={tt}></img>
+                            <h2>FADA FOODS</h2>
+                        </div>
+                    </a>
                     <a href='https://shopee.co.th/abang_marget?uls_trackid=530jtfl80048' target='blank'>
                         <div className="contact-box">
                             <img src={shop}></img>

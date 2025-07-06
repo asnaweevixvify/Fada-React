@@ -174,7 +174,7 @@ hr{
   transform: scale(1.1);
 }
 .box-product img{
-  width: 400px;
+  width: 320px;
   filter: brightness(0.9);
 }
 .box-product h4{
@@ -396,6 +396,7 @@ hr{
   cursor: pointer;
   transform: scale(1);
   transition: transform 0.2s ease-in-out;
+  width: 500px;
 }
 .contact-box:hover{
   transform: scale(1.1);
@@ -494,6 +495,12 @@ hr{
   }
   .contact-box{
     width: 500px;
+  }
+  .menu-des{
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
