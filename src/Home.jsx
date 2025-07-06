@@ -46,7 +46,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import './App.css'
-import { Helmet } from 'react-helmet';
 
 
 function Home() {
@@ -60,11 +59,6 @@ function Home() {
 
   return (
     <div className="container">
-        <Helmet>
-            <title>หน้าหลัก - ฟาด้าน้ำปลาร้าฮาลาล</title>
-            <meta name="description" content="" />
-            <meta name="keywords" content="น้ำปลาร้า,ปลาร้าฮาลาล,ฟาด้า,ฟาด้าน้ำปลาร้าฮาลาล,fada,fadafoods" />
-        </Helmet>
         <section className='home' id='Home'>
             <div className="bgPic" data-aos="fade-up">
                 <img src={homePic}></img>
