@@ -96,27 +96,27 @@ function Home() {
                 <div className="box-container">
                     <div className="box-product">
                         <img src={one}></img>
-                        <h4>1 ขวด 35 บาท ค่าส่ง 19 บาท</h4>
+                        <h4>1 ขวด 35 บาท <br></br> ค่าส่ง 19 บาท</h4>
                         <h6>( ปลายทางบวกเพิ่ม 10 บาท )</h6>
                     </div>
                     <div className="box-product">
                         <img src={two}></img>
-                        <h4>2 ขวด 70 บาท ค่าส่ง 30 บาท</h4>
+                        <h4>2 ขวด 70 บาท <br></br> ค่าส่ง 30 บาท</h4>
                         <h6>( ปลายทางบวกเพิ่ม 10 บาท )</h6>
                     </div>
                     <div className="box-product">
                         <img src={three}></img>
-                        <h4>3 ขวด 100 บาท ค่าส่ง 35 บาท</h4>
+                        <h4>3 ขวด 100 บาท <br></br> ค่าส่ง 35 บาท</h4>
                         <h6>( ปลายทางบวกเพิ่ม 10 บาท )</h6>
                     </div>
                     <div className="box-product">
                         <img src={six}></img>
-                        <h4>6 ขวด 180 บาท ค่าส่ง 50 บาท</h4>
+                        <h4>6 ขวด 180 บาท <br></br> ค่าส่ง 50 บาท</h4>
                         <h6>( ปลายทางบวกเพิ่ม 10 บาท )</h6>
                     </div>
                     <div className="box-product">
                         <img src={np}></img>
-                        <h4>1 ขวด 45 บาท ค่าส่ง 29 บาท</h4>
+                        <h4>1 ขวด 45 บาท <br></br> ค่าส่ง 29 บาท</h4>
                         <h6>( ปลายทางบวกเพิ่ม 10 บาท )</h6>
                     </div>
                 </div>
