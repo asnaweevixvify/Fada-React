@@ -10,7 +10,7 @@ function App() {
     <div className='body'>
       <Helmet>
         <title>ชื่อเว็บไซต์ของคุณ</title>
-        <meta name="description" content="ฟาด้าน้ำปลาร้าฮาลาล" />
+        <meta name="description" content="ฟาด้าน้ำปลาร้าฮาลาล น้ำปลาร้าฮาลาลที่ทำจากมุสลิมแท้ 100 % ผลิตจากปลาทะเล ขวดละ 35 บาท ผ่านการรับรองมาตรฐานฮาลาล" />
         <meta name="keywords" content="ฟาด้า,น้ำปลาร้า,น้ำปลาร้าฮาลาล,ฟาด้าน้ำปลาร้าฮาลาล,fadafoods,fada" />
         <meta property="og:title" content="ฟาด้าน้ำปลาร้าฮาลาล" />
         <meta property="og:description" content="น้ำปลาร้าฮาลาล" />

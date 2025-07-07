@@ -68,7 +68,7 @@ function Home() {
                 <h3>By Fadafood</h3>
             </div>
             <div className="bottle">
-                <img src={bottle}></img>
+                <img src={bottle} alt='ผลิตภัณฑ์ฟาด้าน้ำปลาร้าฮาลาล'></img>
             </div>
         </section>
 
@@ -95,27 +95,27 @@ function Home() {
                 <h1>สินค้าของเรา</h1> 
                 <div className="box-container">
                     <div className="box-product">
-                        <img src={one}></img>
+                        <img src={one} alt='น้ำปลาร้า 1 ขวด'></img>
                         <h4>1 ขวด 35 บาท <br></br> ค่าส่ง 19 บาท</h4>
                         <h6>( ปลายทางบวกเพิ่ม 10 บาท )</h6>
                     </div>
                     <div className="box-product">
-                        <img src={two}></img>
+                        <img src={two} alt='น้ำปลาร้า 2 ขวด'></img>
                         <h4>2 ขวด 70 บาท <br></br> ค่าส่ง 30 บาท</h4>
                         <h6>( ปลายทางบวกเพิ่ม 10 บาท )</h6>
                     </div>
                     <div className="box-product">
-                        <img src={three}></img>
+                        <img src={three} alt='น้ำปลาร้า 3 ขวด'></img>
                         <h4>3 ขวด 100 บาท <br></br> ค่าส่ง 35 บาท</h4>
                         <h6>( ปลายทางบวกเพิ่ม 10 บาท )</h6>
                     </div>
                     <div className="box-product">
-                        <img src={six}></img>
+                        <img src={six} alt='น้ำปลาร้า 6 ขวด'></img>
                         <h4>6 ขวด 180 บาท <br></br> ค่าส่ง 50 บาท</h4>
                         <h6>( ปลายทางบวกเพิ่ม 10 บาท )</h6>
                     </div>
                     <div className="box-product">
-                        <img src={np}></img>
+                        <img src={np} alt='น้ำปู 1 ขวด'></img>
                         <h4>1 ขวด 45 บาท <br></br> ค่าส่ง 29 บาท</h4>
                         <h6>( ปลายทางบวกเพิ่ม 10 บาท )</h6>
                     </div>
@@ -130,7 +130,7 @@ function Home() {
                 <h2>เกี่ยวกับสินค้า</h2>
                 <div className="box-info-container">
                     <div className="box-infoProduct">
-                        <img src={halal}></img>
+                        <img src={halal} alt='ตราฮาลาล'></img>
                         <div className="text-infoProduct">
                             <h1>ฮาลาล</h1>
                             <h3>
@@ -139,7 +139,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="box-infoProduct">
-                        <img src={safe}></img>
+                        <img src={safe} alt='ความปลอดภัยในการผลิต'></img>
                         <div className="text-infoProduct">
                             <h1>สะอาด</h1>
                             <h3>
@@ -148,7 +148,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="box-infoProduct">
-                        <img src={food}></img>
+                        <img src={food} alt='อาหารที่ทำจากฟาด้าน้ำปลาร้าฮาลาล'></img>
                         <div className="text-infoProduct">
                             <h1>อร่อย</h1>
                             <h3>
@@ -166,14 +166,14 @@ function Home() {
             <h1 className='menu-text'>ทำเมนูอะไรได้บ้าง</h1>
             <h4 className='menu-des'>สามารถทำเมนูได้หลากหลาย เช่น เช่น ส้มตำ ลาบ น้ำตก ยำ แกง น้ำพริก หลน และอีกมากมาย</h4>
             <div className="showcase-container" data-aos="fade-up">
-                <img src={menu3}></img>
-                <img src={menu4}></img>
-                <img src={menu5}></img>
-                <img src={menu6}></img>
-                <img src={menu7}></img>
-                <img src={menu8}></img>
-                <img src={menu9}></img>
-                <img src={menu10}></img>
+                <img src={menu3} alt='ตัวอย่างเมนู'></img>
+                <img src={menu4} alt='ตัวอย่างเมนู'></img>
+                <img src={menu5} alt='ตัวอย่างเมนู'></img>
+                <img src={menu6} alt='ตัวอย่างเมนู'></img>
+                <img src={menu7} alt='ตัวอย่างเมนู'></img>
+                <img src={menu8} alt='ตัวอย่างเมนู'></img>
+                <img src={menu9} alt='ตัวอย่างเมนู'></img>
+                <img src={menu10} alt='ตัวอย่างเมนู'></img>
             </div>
         </section>
 
@@ -185,42 +185,42 @@ function Home() {
                 <div className="box-review-container influ">
                     <a href='https://www.facebook.com/reel/460020850516494' target='blank'>
                         <div className="box-review">
-                            <img src={lek}></img>
+                            <img src={lek} alt='ตัวอย่างรีวิว'></img>
                             <h2>เล็ก บูรพา วรุต ปริงทอง </h2>
                             <h4>Click เพื่อรับชมคลิป</h4>
                         </div>
                     </a>
                     <a href='https://www.facebook.com/watch/?mibextid=wwXIfr&v=688746660537298&rdid=wz2f17CYznRLOJT5' target='blank'>
                         <div className="box-review">
-                            <img src={pawa}></img>
+                            <img src={pawa} alt='ตัวอย่างรีวิว'></img>
                             <h2>ปะหวาจัดให้</h2>
                             <h4>Click เพื่อรับชมคลิป</h4>
                         </div>
                     </a>
                     <a href='https://www.facebook.com/watch/?v=3019846131518374&rdid=d319NnpPKlk9c1me' target='blank'>
                         <div className="box-review">
-                            <img src={yai}></img>
+                            <img src={yai} alt='ตัวอย่างรีวิว'></img>
                             <h2>ว่าเฮยายหนวด</h2>
                             <h4>Click เพื่อรับชมคลิป</h4>
                         </div>
                     </a>
                     <a href='https://www.tiktok.com/@nuker_taiyang/video/7511274863307410696?_r=1&_t=ZS-8wtst6t64e8' target='blank'>
                         <div className="box-review">
-                            <img src={bang}></img>
+                            <img src={bang} alt='ตัวอย่างรีวิว'></img>
                             <h2>nuker_taiyang นิกับบัง</h2>
                             <h4>Click เพื่อรับชมคลิป</h4>
                         </div>
                     </a>
                    <a href='https://www.facebook.com/watch/?mibextid=rS40aB7S9Ucbxw6v&v=2143678446133307' target='blank'>
                         <div className="box-review">
-                            <img src={kasi}></img>
+                            <img src={kasi} alt='ตัวอย่างรีวิว'></img>
                             <h2>ครัว กะซีตี</h2>
                             <h4>Click เพื่อรับชมคลิป</h4>
                         </div>
                    </a>
                     <a href='https://www.tiktok.com/@bangfead_ontour/video/7498921984865193234?_r=1&_t=ZS-8vxAoam7yUB' target='blank'>
                         <div className="box-review">
-                            <img src={bangf}></img>
+                            <img src={bangf} alt='ตัวอย่างรีวิว'></img>
                             <h2>บังแฝด สายล่องท่องกิน </h2>
                             <h4>Click เพื่อรับชมคลิป</h4>
                         </div>
@@ -236,16 +236,16 @@ function Home() {
             <h1>รีวิวจากลูกค้า</h1> 
                 <div className="box-review-container">
                     <div className="box-review-p">
-                        <img src={r1}></img>
+                        <img src={r1} alt='ตัวอย่างรีวิว'></img>
                     </div>
                     <div className="box-review-p">
-                        <img src={r2}></img>
+                        <img src={r2} alt='ตัวอย่างรีวิว'></img>
                     </div>
                     <div className="box-review-p">
-                        <img src={r3}></img>
+                        <img src={r3} alt='ตัวอย่างรีวิว'></img>
                     </div>
                     <div className="box-review-p">
-                        <img src={r4}></img>
+                        <img src={r4} alt='ตัวอย่างรีวิว'></img>
                     </div>
                 </div>
             </div>
@@ -255,10 +255,10 @@ function Home() {
 
         <section>
             <div className="showcase-container" data-aos="fade-up">
-                <img src={show1}></img>
-                <img src={show2}></img>
-                <img src={show3}></img>
-                <img src={show4}></img>
+                <img src={show1} alt='ตัวอย่างเมนู'></img>
+                <img src={show2} alt='ตัวอย่างเมนู'></img>
+                <img src={show3} alt='ตัวอย่างเมนู'></img>
+                <img src={show4} alt='ตัวอย่างเมนู'></img>
             </div>
         </section>
 
@@ -270,33 +270,33 @@ function Home() {
                 <div className="contact-container">
                     <a href='https://www.facebook.com/profile.php?id=61571321459986' target='blank'>
                         <div className="contact-box">
-                            <img src={face}></img>
+                            <img src={face} alt='ช่องทางสั่งซื้อ'></img>
                             <h2>ฟาด้าน้ำปลาร้าฮาลาล</h2>
                         </div>
                     </a>
                     <div className="contact-box">
-                        <img src={call}></img>
+                        <img src={call} alt='ช่องทางสั่งซื้อ'></img>
                         <h2>084-199-3291</h2>
                     </div>
                     <div className="contact-box">
-                        <img src={line}></img>
+                        <img src={line} alt='ช่องทางสั่งซื้อ'></img>
                         <h2>@fadafoods</h2>
                     </div>
                     <a href='https://www.tiktok.com/view/product/1731244958149477617?_svg=1&checksum=631db6d293c60ffb3ca93d16184876132aa98f77092f36efb11b2eb8bd1e2e21&encode_params=MIIBLwQM85OFqy50IiW7C8AdBIIBC8xGddPRzUJGgsgR35qu1MuwDnVqUsSnrgsgF4uXJKsmOJ1K51jJWnFSWGIjIhjvQ%2BHp7hqrfS6ofAjFGYrLEFMGDwbGwjBGwY%2BaVRbB8PguPF%2B%2Fq8IQV7pN0J22zlCvojdq9iIjTZDmBaXfL1iWLj1IFoXJrv1DCAHCXyigTOWF%2ByuIIqw8VbSvjjeJ9aYan3hVucI5h4K%2Birivkw4gTrd4GqIxxjKi1W6i6M9SmJhuTUxb1T%2FcoAMLW3yLHj2u1rN%2BW2MUrpESU9SvgHwcbqrFUJwhSLnJAC4YZod%2FVefSGELi2Nel9OI8nkTZ%2BDaxbVf7rTlAoxjKZ%2BD7jr5qXwnGGl17wwKO%2FElIugQQgRTg9qVYJmdJomnjIBWeUA%3D%3D&og_info=%7B%22title%22%3A%22%E0%B8%9F%E0%B8%B2%E0%B8%94%E0%B9%89%E0%B8%B2+%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%AE%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%A5+Fada+Fermented+fish++sauce%22%2C%22image%22%3A%22https%3A%5C%2F%5C%2Fp16-oec-sg.ibyteimg.com%5C%2Ftos-alisg-i-aphluv4xwc-sg%5C%2F8d93a25f9f5040718778e246630cdb2a~tplv-aphluv4xwc-resize-webp%3A260%3A260.webp%3Fdr%3D15582%26t%3D555f072d%26ps%3D933b5bde%26shp%3D7745054a%26shcp%3D9b759fb9%26idc%3Dmy%26from%3D2001012042%22%7D&sec_user_id=MS4wLjABAAAADawNwxBlxjse2edq4ZEH0PozhRhLOsvChcwYOVoDSGy9zd8ta5iDqXQtl4sXZtGz&share_app_id=1180&share_iid=7521913715392071431&share_link_id=e2d0ef59-d77d-43cd-bffc-612250bfb527&social_share_type=15&timestamp=1751773477&trackParams=%7B%22traffic_source_list%22%3A%5B6%5D%2C%22traffic_source%22%3A6%2C%22enable_shop_tab_popup%22%3A1%2C%22device_id%22%3A%227500878662221317639%22%7D&u_code=d2dcgmjm8c28k6&ug_btm=b3190%2Cb6661&ugbiz_name=UNKNOWN&unique_id=naseerohezor&user_id=6609216208313171969' target='blank'>
                         <div className="contact-box">
-                            <img src={tt}></img>
+                            <img src={tt} alt='ช่องทางสั่งซื้อ'></img>
                             <h2>FADA FOODS</h2>
                         </div>
                     </a>
                     <a href='https://shopee.co.th/abang_marget?uls_trackid=530jtfl80048' target='blank'>
                         <div className="contact-box">
-                            <img src={shop}></img>
+                            <img src={shop} alt='ช่องทางสั่งซื้อ'></img>
                             <h2>abang market</h2>
                         </div>
                     </a>
                     <a href='https://www.lazada.co.th/shop/flkxtchh?spm=a211g0.store_hp.more_popup.share_this_store&dsource=share&laz_share_info=1957262930_0_200_100068273204_1957264930_null&laz_token=0f9c45d83fe50437de89b880cdc1e8f7&exlaz=e_78%2FCXAnZy6HGip8qo24MCSTeQCjDld4siVQ4kY1ODqrCXvTKdNAtBfrYHUpbt8xr6nejNh6YiYbO7MSdVRSDSLcazjqFN96eD3WnASIas1Y%3D&sub_aff_id=social_share&sub_id2=1957262930&sub_id3=100068273204&sub_id6=CPI_EXLAZ' target='blank'>
                         <div className="contact-box">
-                            <img src={laz}></img>
+                            <img src={laz} alt='ช่องทางสั่งซื้อ'></img>
                             <h2>abang market</h2>
                         </div>
                     </a>
