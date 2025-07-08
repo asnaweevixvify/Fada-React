@@ -21,14 +21,18 @@ import yai from './pic/yai.png'
 import bang from './pic/bang.png'
 import kasi from './pic/kasi.png'
 import bangf from './pic/bangf.png'
-import menu3 from './pic/26.png'
-import menu4 from './pic/27.png'
-import menu5 from './pic/28.png'
-import menu6 from './pic/29.png'
-import menu7 from './pic/30.png'
-import menu8 from './pic/31.png'
-import menu9 from './pic/37.png'
-import menu10 from './pic/38.png'
+import menu3 from './pic/menu1.png'
+import menu4 from './pic/menu2.png'
+import menu5 from './pic/menu3.png'
+import menu6 from './pic/menu4.png'
+import menu7 from './pic/menu5.png'
+import menu8 from './pic/menu6.png'
+import menu9 from './pic/menu7.png'
+import menu10 from './pic/menu8.png'
+import c1 from './pic/cer1.png'
+import c2 from './pic/cer2.png'
+import c3 from './pic/cer3.png'
+
 import r1 from './pic/32.png'
 import r2 from './pic/33.png'
 import r3 from './pic/34.png'
@@ -77,9 +81,11 @@ function Home() {
                 <div className="descrip">
                     <h1>เกี่ยวกับเรา</h1>    
                     <h5>
-                        <b>ความต้องการที่ยังไม่ถูกเติมเต็ม (Unmet Need)</b> : <br></br>แม้น้ำปลาร้าจะเป็นหัวใจของอาหารอีสานและอาหารไทยหลายเมนู แต่ตลาดน้ำปลาร้าฮาลาลที่ได้มาตรฐานและเป็นที่ยอมรับยังคงมีน้อยมาก การทำน้ำปลาร้าฟาด้าฮาลาลคือการตอบโจทย์ช่องว่างนี้ ทำให้พี่น้องมุสลิมสามารถเพลิดเพลินกับรสชาตินัวอร่อยได้อย่างไร้กังวล<br></br>
-                        <br></br><b>การเข้าถึงอาหารไทยสำหรับพี่น้องมุสลิม</b> : <br></br>อาหารไทยเป็นที่รู้จักและชื่นชอบทั่วโลก การมีน้ำปลาร้าฮาลาลคุณภาพดีจะช่วยให้ร้านอาหารไทยและผู้บริโภคมุสลิมสามารถสร้างสรรค์เมนูไทยแท้ได้อย่างสมบูรณ์ โดยไม่ต้องกังวลเรื่องวัตถุดิบ ช่วยขยายตลาดและส่งเสริมวัฒนธรรมอาหารไทยให้เป็นที่รู้จักในวงกว้างยิ่งขึ้น
-                       <br></br><br></br> <b>สร้างความเชื่อมั่นและมาตรฐานฮาลาล</b> :<br></br> การได้รับรองเครื่องหมายฮาลาลไม่ใช่เรื่องง่าย ต้องผ่านกระบวนการผลิตที่เคร่งครัด สะอาด และปลอดภัย การทำน้ำปลาร้าฟาด้าฮาลาลจึงเป็นการยกระดับมาตรฐานสินค้าไทย และสร้างความมั่นใจสูงสุดให้กับผู้บริโภคว่าผลิตภัณฑ์นี้ "ฮาลาลจริง" และมาจากแหล่งที่เชื่อถือได้
+                    จุดเริ่มต้นการทำน้ำปลาร้าฮาลาลของคุณฟารีดา หมัดเลียด เจ้าของแบรนด์น้ำปลาร้ามุสลิมเจ้าแรกของประเทศไทย ถือเป็นก้าวแรกที่เรากล้าก้าวผ่านความแปลกใหม่ในตลาดฮาลาลของชาวมุสลิมที่อาจจะคุ้นเคยกับน้ำบูดูในตลาด 3 จังหวัดชายแดนใต้ 
+                    การเริ่มต้นผลิตน้ำปลาร้าฮาลาลเป็นการตัดสินใจ และเปิดโอกาสสู่ตลาดมุสลิมที่มีกำลังซื้อและชอบอาหารสไตล์อาหารอิสาน แต่ต้องการผลิตภัณฑ์ที่ถูกต้องตามหลักศาสนาอิสลาม
+                    ถึงแม้ว่าน้ำปลาร้าในท้องตลาดจะมีมากมาย แต่ตลาดน้ำปลาร้าฮาลาลที่ได้มาตรฐานและเป็นที่ยอมรับยังคงมีน้อยมาก การทำน้ำปลาร้าฟาด้าฮาลาลคือการตอบโจทย์ช่องว่างนี้ ทำให้พี่น้องมุสลิมสามารถเพลิดเพลินกับรสชาตินัวอร่อยได้อย่างไร้กังวล<br></br><br></br>
+                    <b>การเข้าถึงอาหารไทยสำหรับพี่น้องมุสลิม </b>: อาหารไทยเป็นที่รู้จักและชื่นชอบทั่วโลก การมีน้ำปลาร้าฮาลาลคุณภาพดีจะช่วยให้ร้านอาหารไทยและผู้บริโภคมุสลิมสามารถสร้างสรรค์เมนูไทยแท้ได้อย่างสมบูรณ์ โดยไม่ต้องกังวลเรื่องวัตถุดิบ ช่วยขยายตลาดและส่งเสริมวัฒนธรรมอาหารไทยให้เป็นที่รู้จักในวงกว้างยิ่งขึ้น<br></br><br></br>
+                    <b>สร้างความเชื่อมั่นและมาตรฐานฮาลาล</b>: การได้รับรองเครื่องหมายฮาลาลไม่ใช่เรื่องง่าย ต้องผ่านกระบวนการผลิตที่เคร่งครัด สะอาด และปลอดภัย การทำน้ำปลาร้าฟาด้าฮาลาลจึงเป็นการยกระดับมาตรฐานสินค้าไทย และสร้างความมั่นใจสูงสุดให้กับผู้บริโภคว่าผลิตภัณฑ์นี้ "ฮาลาลจริง" และมาจากแหล่งที่เชื่อถือได้
                     </h5>
                 </div>
                 <div className="about-pic">
@@ -96,28 +102,28 @@ function Home() {
                 <div className="box-container">
                     <div className="box-product">
                         <img src={one} alt='น้ำปลาร้า 1 ขวด'></img>
-                        <h4>1 ขวด 35 บาท <br></br> ค่าส่ง 19 บาท</h4>
-                        <h6>( ปลายทางบวกเพิ่ม 10 บาท )</h6>
+                        <h4>1 ขวด 35 บาท <br></br></h4>
+                        <h6>( ขนาด 400 ml. )</h6>
                     </div>
                     <div className="box-product">
                         <img src={two} alt='น้ำปลาร้า 2 ขวด'></img>
-                        <h4>2 ขวด 70 บาท <br></br> ค่าส่ง 30 บาท</h4>
-                        <h6>( ปลายทางบวกเพิ่ม 10 บาท )</h6>
+                        <h4>2 ขวด 70 บาท <br></br></h4>
+                        <h6>( ขนาด 400 ml. )</h6>
                     </div>
                     <div className="box-product">
                         <img src={three} alt='น้ำปลาร้า 3 ขวด'></img>
-                        <h4>3 ขวด 100 บาท <br></br> ค่าส่ง 35 บาท</h4>
-                        <h6>( ปลายทางบวกเพิ่ม 10 บาท )</h6>
+                        <h4>3 ขวด 100 บาท <br></br></h4>
+                        <h6>( ขนาด 400 ml. )</h6>
                     </div>
                     <div className="box-product">
                         <img src={six} alt='น้ำปลาร้า 6 ขวด'></img>
-                        <h4>6 ขวด 180 บาท <br></br> ค่าส่ง 50 บาท</h4>
-                        <h6>( ปลายทางบวกเพิ่ม 10 บาท )</h6>
+                        <h4>6 ขวด 180 บาท <br></br></h4>
+                        <h6>( ขนาด 400 ml. )</h6>
                     </div>
                     <div className="box-product">
                         <img src={np} alt='น้ำปู 1 ขวด'></img>
-                        <h4>1 ขวด 45 บาท <br></br> ค่าส่ง 29 บาท</h4>
-                        <h6>( ปลายทางบวกเพิ่ม 10 บาท )</h6>
+                        <h4>1 ขวด 45 บาท <br></br></h4>
+                        <h6>( น้ำปู ขนาด 340 ml. )</h6>
                     </div>
                 </div>
             </div>
@@ -162,18 +168,76 @@ function Home() {
 
         <hr></hr>
 
+        <section>
+            <div className="productInfo" id='Cer' data-aos="fade-up">
+                <h2>Certificated</h2>
+                <div className="box-info-container">
+                    <div className="box-infoProduct">
+                        <img src={c1} alt='ตราฮาลาล'></img>
+                        <div className="text-infoProduct">
+                            <h3>
+                                ใบรับรองมาตรฐานฮาลาลจากสำนักงานคณะกรรมการกลางอิสลามแห่งประเทศไทย
+                            </h3>
+                        </div>
+                    </div>
+                    <div className="box-infoProduct">
+                        <img src={c2} alt='ความปลอดภัยในการผลิต'></img>
+                        <div className="text-infoProduct">
+                            <h3>
+                                ใบอนุญาตผลิตอาหาร (อย.)
+                            </h3>
+                        </div>
+                    </div>
+                    <div className="box-infoProduct">
+                        <img src={c3} alt='อาหารที่ทำจากฟาด้าน้ำปลาร้าฮาลาล'></img>
+                        <div className="text-infoProduct">
+                            <h3>
+                                ใบอนุญาตให้ประกอบธุรกิจจาก<br></br>กรมพัฒนาธุรกิจการค้า
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr></hr>
+
         <section id="Menu" data-aos="fade-up">
             <h1 className='menu-text'>ทำเมนูอะไรได้บ้าง</h1>
             <h4 className='menu-des'>สามารถทำเมนูได้หลากหลาย เช่น เช่น ส้มตำ ลาบ น้ำตก ยำ แกง น้ำพริก หลน และอีกมากมาย</h4>
             <div className="showcase-container" data-aos="fade-up">
-                <img src={menu3} alt='ตัวอย่างเมนู'></img>
-                <img src={menu4} alt='ตัวอย่างเมนู'></img>
-                <img src={menu5} alt='ตัวอย่างเมนู'></img>
-                <img src={menu6} alt='ตัวอย่างเมนู'></img>
-                <img src={menu7} alt='ตัวอย่างเมนู'></img>
-                <img src={menu8} alt='ตัวอย่างเมนู'></img>
-                <img src={menu9} alt='ตัวอย่างเมนู'></img>
-                <img src={menu10} alt='ตัวอย่างเมนู'></img>
+                <div className="showcase-box">
+                    <img src={menu3} alt='ตัวอย่างเมนู'></img>
+                    <h3>ส้มตำปูปลาร้า</h3>
+                </div>
+                <div className="showcase-box">
+                    <img src={menu4} alt='ตัวอย่างเมนู'></img>
+                    <h3>ตำซั่วกุ้งสุก</h3>
+                </div>
+                <div className="showcase-box">
+                    <img src={menu5} alt='ตัวอย่างเมนู'></img>
+                    <h3>ตำซั่วแซลมอน</h3>
+                </div>
+                <div className="showcase-box">
+                    <img src={menu6} alt='ตัวอย่างเมนู'></img>
+                    <h3>ส้มตำปูม้าปลาร้า</h3>
+                </div>
+                <div className="showcase-box">
+                    <img src={menu7} alt='ตัวอย่างเมนู'></img>
+                    <h3>ตำมะม่วงหอยแครง</h3>
+                </div>
+                <div className="showcase-box">
+                    <img src={menu8} alt='ตัวอย่างเมนู'></img>
+                    <h3>ยำแซ่บแซลมอน</h3>
+                </div>
+                <div className="showcase-box">
+                    <img src={menu9} alt='ตัวอย่างเมนู'></img>
+                    <h3>ตำไก่ยอ</h3>
+                </div>
+                <div className="showcase-box">
+                    <img src={menu10} alt='ตัวอย่างเมนู'></img>
+                    <h3>แกงป่าขาไก่ใส่น้ำปลาร้า</h3>
+                </div>
             </div>
         </section>
 
