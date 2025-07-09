@@ -432,8 +432,6 @@ hr{
   font-size: 25px;
 }
 iframe{
-  width: 800px;
-  height: 600px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
