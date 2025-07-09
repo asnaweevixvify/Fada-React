@@ -368,6 +368,18 @@ function Home() {
             </div>
         </section>
 
+        <hr></hr>
+
+        <section>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37848.69279598506!2d100.4197860671736!3d6.727139139033455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304cc9cae7aee5cb%3A0x411cb51b811e621f!2z4Lif4Liy4LiU4LmJ4LiyIOC4meC5ieC4s-C4m-C4peC4suC4o-C5ieC4siDguK7guLLguKXguLLguKU!5e1!3m2!1sen!2sth!4v1752029284504!5m2!1sen!2sth"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+        />
+        </section>
+
     </div>
   )
 }
